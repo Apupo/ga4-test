@@ -5,26 +5,26 @@
     <title>Test GA4 Eventy</title>
 
     <!-- Google Analytics 4 tag -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MSJWEHRC4"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y1JQB645J3"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
       // Nastavenie Measurement ID
-      gtag('config', 'G-2MSJWEHRC4');
+      gtag('config', 'G-Y1JQB645J3');
 
       // Aktivácia debug módu
       // gtag('set', 'debug_mode', true);
 
       // Príklad testovacieho purchase eventu
-      gtag('event', 'Purchase event on property 2', {
+      gtag('event', 'purchase', {
           value: 9.99,
           currency: 'USD',
           item_id: 'test123'
       });
 
-      gtag('event', 'Test event on property 2', {
+      gtag('event', 'Test GA Account', {
           value: 9.99,
           currency: 'USD',
           item_id: 'test123'
@@ -35,7 +35,7 @@
     </script>
 </head>
 <body>
-    <h1>Test GA4 Eventy pre property 2</h1>
-    <p>Toto je testovacia stránka na GA4 eventy pre propery 2</p>
+    <h1>Test GA4 Eventy</h1>
+    <p>Toto je testovacia stránka na GA4 eventy.</p>
 </body>
 </html>
